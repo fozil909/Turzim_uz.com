@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOZIL Web Sayti</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Salom, bu mening test sayt!</h1>
+        <p>GitHub orqali joylangan web sahifa</p>
+    </header>
+
+    <section class="card">
+        <h2>Men haqimda</h2>
+        <p>Men GitHub orqali web sayt qilishni o‘rganayapman 🚀</p>
+        <button onclick="showMessage()">Bos!</button>
+    </section>
+
+    <footer>
+        <p>© 2026 FOZIL</p>
+    </footer>
+
+<script>
+function showMessage() {
+    alert("Zo'r! JavaScript ishlayapti 😎");
+}
+</script>
+
+</body>
+</html>
